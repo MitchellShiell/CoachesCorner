@@ -1,4 +1,4 @@
-# CoachesCorner
+# TheBabblingBrook
 
 POC Fantasy Newsletter App
 
