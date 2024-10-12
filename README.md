@@ -12,4 +12,4 @@ POC Fantasy Newsletter App
 
 ### LLM
 
-### Newsleteer
+### Newsletter
