@@ -4,7 +4,9 @@
   "description": "POC Fantasy Newsletter App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,5 @@
   "devDependencies": {
     "@types/node": "^22.7.5",
     "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "axios": "^1.7.7",
-    "yahoo-fantasy": "^5.3.0"
   }
 }
