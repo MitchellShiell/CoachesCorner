@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "POC Fantasy Newsletter App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -20,7 +21,16 @@
   },
   "homepage": "https://github.com/mitchellshiell/thebabblingbrook#readme",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.7.5",
+    "@types/open": "^6.2.1",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "open": "^10.1.0",
+    "querystring": "^0.2.1"
   }
 }
