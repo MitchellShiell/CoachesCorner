@@ -1,0 +1,26 @@
+{
+  "name": "thebabblingbrook",
+  "version": "1.0.0",
+  "description": "POC Fantasy Newsletter App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellshiell/thebabblingbrook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitchellshiell/thebabblingbrook/issues"
+  },
+  "homepage": "https://github.com/mitchellshiell/thebabblingbrook#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
